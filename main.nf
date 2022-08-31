@@ -423,7 +423,6 @@ if (!params.skip_trimming){
    }
 }else{
    reads_trimgalore.into{reads_hpvmap; reads_splitmap; reads_ctrl; reads_fastqc}
-   trimgalore_results = Channel.from(false)
 }
 
 /*
